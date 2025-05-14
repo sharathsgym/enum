@@ -13,7 +13,7 @@ SERVER = 'jskdsdj458.database.windows.net'
 DATABASE = 'zxncbzxcb'
 USERNAME = 'sharvas45'
 PASSWORD = 'Demo@123'
-DRIVER = 'ODBC Driver 18 for SQL Server'  # Ensure installed
+DRIVER = 'ODBC Driver 17 for SQL Server'  # Ensure installed
 
 
 
