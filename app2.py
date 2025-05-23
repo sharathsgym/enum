@@ -9,7 +9,7 @@ url = 'https://uploadedpics.blob.core.windows.net/charts/96aafdf2-e2f2-447e-bf9e
 image = Image.open(requests.get(url, stream=True).raw).convert("RGB")
 image_np = np.array(image)
 
-r = image_np[570:600, 440:500]
+r = image_np[570:664, 440:630]
 cv2.imshow('ques_index', r)
 cv2.waitKey(0)  # Wait until any key is pressed
 cv2.destroyAllWindows()
